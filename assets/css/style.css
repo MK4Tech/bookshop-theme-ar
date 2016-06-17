@@ -44,6 +44,8 @@ body {
   font-size: 16px;
   overflow-x: hidden;
   margin-top:0px;
+
+ 
 }
 
 .no-padding {
@@ -209,6 +211,7 @@ img {
 
 .aa-product-img
 {
+   border-radius:50px: 
     display:block;
     height:300px;
     width:100%;
@@ -404,12 +407,12 @@ img {
   background-color:#fff;
 }
 #aa-header .aa-header-bottom .aa-header-bottom-area {
-  float: left;
+  float: right;
   display: inline;
   width: 100%;
 }
 #aa-header .aa-header-bottom .aa-header-bottom-area .aa-logo {
-  float: left;
+  float: right;
   margin-top: 4px;
 }
 #aa-header .aa-header-bottom .aa-header-bottom-area .aa-logo a {
@@ -441,7 +444,7 @@ img {
 }
 
 #aa-header .aa-header-bottom .aa-header-bottom-area .aa-search-box {
-  float: right;
+  float: left;
   margin-right: 5%;
   margin-top: 13px;
   position: relative;
@@ -2245,6 +2248,13 @@ img {
 }
 #aa-product-category .aa-product-catg-content .aa-product-catg-body .aa-product-catg {
   margin-left: -30px;
+}
+
+#aa-product-category .aa-product-catg-content .aa-product-catg-body .aa-product-catg .ss-product-body-img {
+  -webkit-border-radius:100px;
+  -moz-border-radius:100px;
+border-radius:100px;
+
 }
 #aa-product-category .aa-product-catg-content .aa-product-catg-body .aa-product-catg li {
   margin: 0 0 20px 30px;
